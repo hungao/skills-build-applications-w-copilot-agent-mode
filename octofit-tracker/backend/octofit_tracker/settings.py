@@ -118,8 +118,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
-    "https://*.app.github.dev",
-    "https://*.preview.app.github.dev",  # For Codespaces preview URLs
+    "https://*-8000.app.github.dev",
 ]
 
 # Security settings for development
